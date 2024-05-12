@@ -12,19 +12,38 @@
     "start": "next start"
   },
   "dependencies": {
+    "@alch/alchemy-sdk": "^1.2.0",
+    "@clerk/nextjs": "^5.0.7",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@solana/spl-token": "^0.4.6",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.25.0",
+    "@tanstack/react-table": "^8.16.0",
     "@trpc/client": "next",
     "@trpc/react-query": "next",
     "@trpc/server": "next",
     "@vercel/postgres": "^0.8.0",
+    "alchemy-sdk": "^3.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "drizzle-orm": "^0.29.4",
+    "lucide-react": "^0.378.0",
     "next": "^14.2.1",
     "postgres": "^3.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "server-only": "^0.0.1",
     "superjson": "^2.2.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
+    "useritem": "^0.1.41",
+    "utf-8-validate": "^5.0.2",
     "zod": "^3.23.3"
   },
   "devDependencies": {
@@ -43,7 +62,8 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "useritem": "^0.1.41"
   },
   "ct3aMetadata": {
     "initVersion": "7.32.1"
